@@ -53,6 +53,9 @@ while True:
 
                 if(filename.endswith(".jpg")):
                         filetype = 'image/jpg'
+                if(filename.endswith(".jpeg")):
+                        filetype = 'image/jpeg'
+
                 elif(filename.endswith(".mp4")):
                         filetype = 'video/mp4'
                 else:
